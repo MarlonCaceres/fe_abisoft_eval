@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+// regular style toast
+@import 'node_modules/ngx-toastr/toastr';
+
+.bg1{
+    background-color: #004D9A;
+    color: #fff;
+}
+
+.bg2{
+    background-color: #fff;
+    color: #004D9A;
+}
+
+.button-principal{
+    background-color: #004D9A !important;
+    color: #fff !important;
+}
+
+.button-secundary{
+    background-color: #fff !important;
+    color: #004D9A !important;
+}
+
+.obligatory{
+    color: red;
+}

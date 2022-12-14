@@ -6,6 +6,14 @@ export const environment = {
   production: false
 };
 
+//Dev
+export const services = {
+  apiUrl:'localhost',
+  Port:'8000',
+  EndPoint:'api',
+  SslWeb:false,
+}
+
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
